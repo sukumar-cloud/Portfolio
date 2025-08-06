@@ -1,0 +1,18 @@
+<svg width="340" height="200" viewBox="0 0 340 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="340" height="200" rx="18" fill="#F8FAFC"/>
+  <rect x="30" y="60" width="60" height="80" rx="10" fill="#E9EEF6" stroke="#7B9ACC" stroke-width="2"/>
+  <text x="60" y="110" font-size="13" font-family="Arial" fill="#2D3748" text-anchor="middle">CSV</text>
+  <rect x="250" y="60" width="60" height="80" rx="10" fill="#F9EED7" stroke="#F4B942" stroke-width="2"/>
+  <text x="280" y="110" font-size="13" font-family="Arial" fill="#2D3748" text-anchor="middle">ClickHouse</text>
+  <rect x="120" y="90" width="100" height="20" rx="6" fill="#D1FAE5" stroke="#38B2AC" stroke-width="2"/>
+  <text x="170" y="105" font-size="12" font-family="Arial" fill="#234E52" text-anchor="middle">Ingestion</text>
+  <path d="M90 100 Q105 100 120 100" stroke="#38B2AC" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M220 100 Q235 100 250 100" stroke="#F4B942" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 8 3, 0 6" fill="#234E52" />
+    </marker>
+  </defs>
+  <text x="170" y="40" font-size="16" font-family="Arial" fill="#2D3748" text-anchor="middle" font-weight="bold">Data Ingestion Tool</text>
+  <text x="170" y="180" font-size="11" font-family="Arial" fill="#718096" text-anchor="middle">CSV &lt;-&gt; ClickHouse | AngularJS + Spring Boot</text>
+</svg>
